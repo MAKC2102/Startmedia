@@ -1,0 +1,6 @@
+//общие стили кнопки и таблицы
+@mixin tableSort($background, $border-radius) {
+  background-color: $background;
+  border-radius: $border-radius;
+  @content;
+}
